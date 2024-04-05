@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav div {
+    border-bottom: 1px solid white;
+    padding: 60px;
+}
+
+nav div ul {
+    color: white;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+nav div ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 480px;
+    padding-top: 40px;
+}
+
+.bak {
+    background-image: url(../Background/bkgmd3.webp);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+    text-align: right;
+    line-height: 2;
+}
+
+a {
+    text-decoration: underline;
+    color: #ae9fff;
+    text-align: right;
+    padding: 27px;
+}
+
+/**Input Style**/
+.inpbox {
+    line-height: 800px;
+    width: 370px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    background-color: #171933;
+    font-weight: bold;
+    line-height: 5;
+}
+
+/** check box Style**/
+.chbox {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #171933;
+    font-weight: bold;
+}
+
+/**Style du forme**/
+.fmbox {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 18px;
+    background-color: #2a2e5e;
+    font-weight: bold;
+}
+
+.butt {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #5396e7;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 5;
+}
+
+.labelbox {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-transform: capitalize;
+    text-align: right;
+    size: 7px;
+    line-height: 5;
+}

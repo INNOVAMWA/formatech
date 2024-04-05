@@ -1,0 +1,26 @@
+body{
+    background-color: #83B56C;
+}
+
+.leftstart{
+    text-align: left;
+}
+
+h1{
+    font-size: 90px;
+}
+
+.lit{
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.date{
+    text-align: center;
+    font-weight: bold;
+}
+.slv{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
